@@ -1,0 +1,53 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Body */
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+  max-width: 300px;
+  text-align: center;
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Heading */
+.card h2 {
+  font-size: 18px;
+  margin: 15px 0;
+  color: hsl(218, 44%, 22%);
+}
+
+/* Paragraph */
+.card p {
+  font-size: 14px;
+  color: hsl(220, 15%, 55%);
+  padding: 0 10px;
+}
+@media (max-width: 375px) {
+  .card {
+    max-width: 90%;
+  }
+}
